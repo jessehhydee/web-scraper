@@ -1,0 +1,40 @@
+{
+    "travelBook": {
+        "url": "https://books.toscrape.com/catalogue/category/books/travel_2/index.html",
+        "title": ".page-header h1",
+        "bookHeading": ".product_pod h3 a",
+        "bookPrice": ".product_pod .product_price p.price_color"
+    },
+    "philosophyBooks": [
+        {
+            "url": "https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html",
+            "title": ".page-header h1",
+            "bookHeading": ".product_pod h3 a",
+            "bookPrice": ".product_pod .product_price p.price_color"
+        },
+        {
+            "url": "https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html",
+            "title": ".page-header h1",
+            "bookHeading": [
+                ".product_pod h3 a",
+                1
+            ],
+            "bookPrice": [
+                ".product_pod .product_price p.price_color",
+                1
+            ]
+        },
+        {
+            "url": "https://books.toscrape.com/catalogue/category/books/philosophy_7/index.html",
+            "title": ".page-header h1",
+            "bookHeading": [
+                ".product_pod h3 a",
+                2
+            ],
+            "bookPrice": [
+                ".product_pod .product_price p.price_color",
+                2
+            ]
+        }
+    ]
+}
